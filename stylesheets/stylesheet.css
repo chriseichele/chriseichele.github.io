@@ -292,10 +292,10 @@ Full-Width Styles
 	width: 100px;
 	height: 100px;
 	position:relative;
-	top: 30px;
+	top: 40px;
 }
 #header_wrap span {
-	margin-left: -0.6em;
+	margin-left: -0.4em;
 }
 #project_title span:first-letter {
 	visibility: hidden;

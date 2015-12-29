@@ -295,7 +295,7 @@ Full-Width Styles
 	top: 40px;
 }
 #header_wrap span {
-	margin-left: -0.4em;
+	margin-left: -0.3em;
 }
 #project_title span:first-letter {
 	visibility: hidden;
@@ -310,7 +310,7 @@ Full-Width Styles
 
 #project_title {
   margin: 0;
-  font-size: 42px;
+  font-size: 58px;
   font-weight: 700;
 }
 

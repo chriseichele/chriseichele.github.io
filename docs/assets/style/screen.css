@@ -541,6 +541,19 @@ ul.social-badges li a[href*="sap.com/"]:focus {
 
     body.landing-page {
         background-position: 22% 30%;
+        background: none;
+    }
+
+    body.landing-page .fixed-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-image: url('../media/portrait.jpg');
+        background-size: cover;
+        background-position: 22% 30%;
+        background-repeat: no-repeat;
     }
 
     .snap-to-right {

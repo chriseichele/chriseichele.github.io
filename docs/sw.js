@@ -6,16 +6,16 @@ const OFFLINE_URL = '/000.html';
 var urlsToCache = [
   '/',
   '/impressum.html',
-  '/_/favicons/manifest.json',
-  '/_/style/screen.css',
-  '/_/script/main.js',
-  '/_/media/icon.svg',
-  '/_/media/icon-darkmode.svg',
-  '/_/media/portrait.jpg',
-  '/_/fonts/social-icons/icomoon.eot',
-  '/_/fonts/social-icons/icomoon.svg',
-  '/_/fonts/social-icons/icomoon.ttf',
-  '/_/fonts/social-icons/icomoon.woff',
+  '/assets/favicons/manifest.json',
+  '/assets/style/screen.css',
+  '/assets/script/main.js',
+  '/assets/media/icon.svg',
+  '/assets/media/icon-darkmode.svg',
+  '/assets/media/portrait.jpg',
+  '/assets/fonts/social-icons/icomoon.eot',
+  '/assets/fonts/social-icons/icomoon.svg',
+  '/assets/fonts/social-icons/icomoon.ttf',
+  '/assets/fonts/social-icons/icomoon.woff',
   OFFLINE_URL
 ];
 

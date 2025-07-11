@@ -106,12 +106,14 @@ body {
     background: transparent;
 }
 
-body.landing-page {
+body.landing-page #body-wrapper {
     background-image: url('../media/portrait.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: 40% 17%;
+    width: 100%;
+    height: 100%;
 }
 
 .snap-to-right {
@@ -537,7 +539,7 @@ ul.social-badges li a[href*="sap.com/"]:focus {
         padding-bottom: 2em;
     }
 
-    body.landing-page {
+    body.landing-page #body-wrapper {
         background-position: 22% 30%;
     }
 

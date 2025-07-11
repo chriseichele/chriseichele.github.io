@@ -1,0 +1,111 @@
+/* color theming (overwrite to always light mode) */
+
+@media print {
+
+    :root,
+    html.darkmode {
+        --color-text: black;
+        --color-link: #0000ff;
+        --color-link-hover: #0000ff;
+        --color-background1: white;
+        --color-background2: white;
+        --color-secondary1: rgb(240, 240, 240);
+        --color-secondary2: rgb(220, 220, 220);
+        --color-badge-back: #aaaaaa;
+        --color-badge-icon: white;
+        --color-shadow: black;
+        --color-shadow-transparent1: rgba(0, 0, 0, 0.25);
+        --color-shadow-transparent2: rgba(0, 0, 0, 0.50);
+        --color-shadow-transparent3: rgba(0, 0, 0, 0.75);
+
+        --height-top: 400px;
+    }
+
+    html.darkmode #logo-darkmode {
+        display: none;
+    }
+
+    html.darkmode #logo {
+        display: inline;
+    }
+
+
+    /* styles */
+
+    a {
+        text-decoration: underline;
+    }
+
+    h1 a {
+        text-decoration: none;
+    }
+
+    #fab a,
+    ul.social-badges li a {
+        text-decoration: none;
+        box-shadow: none;
+    }
+
+    html.darkmode ul.social-badges > li a[href*="."]:hover,
+    html.darkmode ul.social-badges > li a[href*="."]:focus {
+        background-color: var(--color-badge-back);
+        color: var(--color-badge-icon);
+    }
+
+
+    #headbar {
+        position: relative;
+        font-size: 0.8em;
+        width: calc(100% + 2px);
+        box-shadow: none;
+        border-bottom: 1px solid var(--color-shadow-transparent2);
+    }
+
+    #headbar .subtitle {
+        margin: 0;
+        padding: 0.5em;
+        padding-bottom: 2em;
+        font-size: 0.9em;
+    }
+
+    #content {
+        margin-top: 0;
+        padding: 1em;
+        padding-top: 1.5em;
+    }
+
+    #footer {
+        padding: 1em;
+        padding-top: 0.5em;
+        padding-bottom: 2em;
+    }
+
+    body.landing-page {
+        background-position: initial;
+        width: calc(100% - 1px);
+    }
+
+    .snap-to-right {
+        width: 101% !important;
+        height: auto;
+        min-height: calc(100% - var(--height-top));
+        position: absolute;
+        top: var(--height-top);
+        box-shadow: none;
+    }
+
+    .snap-to-right .scroll-vertical {
+        padding: 0;
+        overflow: auto;
+    }
+
+    .snap-to-right .resizer {
+        display: none;
+    }
+
+    #fab {
+        position: absolute;
+        top: calc(var(--height-top) - 18px);
+        right: 1.5em;
+    }
+}

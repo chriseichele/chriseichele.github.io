@@ -1,0 +1,76 @@
+#banner {
+  height: calc(100% - 15em);
+}
+.parallax_layer-base::before {
+  display: none;
+}
+.parallax_layer-base {
+  background-color: transparent;
+  top: calc(100% - 15em);
+  margin: 0 auto;
+  max-width: 80%;
+}
+@media screen and (max-width: 555px) {
+  .parallax_layer-base {
+    max-width: 100%;
+    top: calc(100% - 22em);
+  }
+}
+.parallax_content {
+  width: auto;
+}
+#page {
+  box-shadow: 0 0 50px -5px rgba(0,0,0,0.5);
+  padding: 0.5em 3vh;
+  background: white;
+  min-height: 100%;
+}
+#content {
+  margin-top: 0;
+}
+
+@media print {
+  #headbar {
+    position: absolute;
+  }
+  .parallax_layer-base {
+    max-width: auto;
+    top: 10em;
+  }
+  #page {
+    padding: 0;
+  }
+}
+
+
+/* ################################## */
+.album {
+  margin: 3em auto;
+}
+.album .date {
+  color: #999;
+  font-size: 0.7em;
+  margin-bottom: 0.5em;
+}
+.album h3 {
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
+}
+.gallery {
+
+}
+.gallery .item {
+  display: inline-block;
+  margin: 0.3em 1em;
+}
+.gallery .item figure {
+  background: blue;
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 50vw;
+  max-height: 50vh;
+  margin: 0 1em;
+}
+.gallery .item figcaption {
+  font-size: 0.7em;
+}

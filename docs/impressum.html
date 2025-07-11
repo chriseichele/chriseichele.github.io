@@ -84,65 +84,64 @@
 </head>
 
 <body class="landing-page">
-    <div id="body-wrapper">
+    <div id="body-background"></div>
 
-        <div class="snap-to-right" id="resizeable1">
+    <div class="snap-to-right" id="resizeable1">
 
-            <div class="resizer" id="resizer1"></div>
+        <div class="resizer" id="resizer1"></div>
 
-            <div class="scroll-vertical">
+        <div class="scroll-vertical">
 
-                <header id="headbar">
-                    <h1><a href="./">
-                            <span class="nowrap">
-                                <img id="logo-darkmode" style="height:1.45em;" src="./assets/media/icon-darkmode.svg" alt="C">
-                                <img id="logo" style="height:1.45em;" src="./assets/media/icon.svg" alt="C">
-                                <span class="logotext">Chris</span>
-                            </span>
-                            <span class="logotext">Eichele</span>
-                        </a></h1>
-                    <div class="subtitle">
-                        <span>Wirtschafts­informatiker.</span>
-                        <span>Hobbyfotograf.</span>
-                        <span>Naturliebhaber.</span>
-                    </div>
-                </header>
+            <header id="headbar">
+                <h1><a href="./">
+                        <span class="nowrap">
+                            <img id="logo-darkmode" style="height:1.45em;" src="./assets/media/icon-darkmode.svg" alt="C">
+                            <img id="logo" style="height:1.45em;" src="./assets/media/icon.svg" alt="C">
+                            <span class="logotext">Chris</span>
+                        </span>
+                        <span class="logotext">Eichele</span>
+                    </a></h1>
+                <div class="subtitle">
+                    <span>Wirtschafts­informatiker.</span>
+                    <span>Hobbyfotograf.</span>
+                    <span>Naturliebhaber.</span>
+                </div>
+            </header>
 
-                <main id="content">
+            <main id="content">
 
-                    <section class="left-align">
-                        <h2>Impressum</h2>
-                        <p>Dies ist eine private Seite von Christian Eichele.
-                            <br>Kontakt unter
-                            <a target="_top" rel="noopener" href="mailto:christian@eichele.me" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Email&#39;, &#39;click to email&#39;, &#39;christian@eichele.me&#39;);">christian@eichele.me</a>.</p>
-                        <h3>Haftungsauschluss</h3>
-                        <p>Trotz sorgfältiger inhaltlicher Kontrolle übernehme ich keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich. Alle Angaben ohne Gewähr.</p>
-                        <h3>Bilder</h3>
-                        <p>Die Bilder und Inhalte dieser Webseite dürfen -sofern nicht anders gekennzeichnet- nicht für den eigenen privaten oder gewerblichen Gebrauch verwendet werden.</p>
-                    </section>
+                <section class="left-align">
+                    <h2>Impressum</h2>
+                    <p>Dies ist eine private Seite von Christian Eichele.
+                        <br>Kontakt unter
+                        <a target="_top" rel="noopener" href="mailto:christian@eichele.me" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Email&#39;, &#39;click to email&#39;, &#39;christian@eichele.me&#39;);">christian@eichele.me</a>.</p>
+                    <h3>Haftungsauschluss</h3>
+                    <p>Trotz sorgfältiger inhaltlicher Kontrolle übernehme ich keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich. Alle Angaben ohne Gewähr.</p>
+                    <h3>Bilder</h3>
+                    <p>Die Bilder und Inhalte dieser Webseite dürfen -sofern nicht anders gekennzeichnet- nicht für den eigenen privaten oder gewerblichen Gebrauch verwendet werden.</p>
+                </section>
 
-                </main>
+            </main>
 
-                <footer id="footer">
-                    <p>©
-                        2025 - Christian Eichele
-                    </p>
-                </footer>
-
-            </div>
+            <footer id="footer">
+                <p>©
+                    2025 - Christian Eichele
+                </p>
+            </footer>
 
         </div>
 
-        <!-- Secondary Scripts -->
-        <!-- useful script to offer direct share and print buttons for standalone web applications -->
-        <script>
-            if (navigator.share) {
-                document.write('<div id="fab" class="show"><a class="share-button" data-icon-code="&#xe80d;" rel="nofollow" href="#share" onclick="if(navigator.vibrate){navigator.vibrate(50);};navigator.share({ title: document.title, text: document.title, url: window.location.href, }).catch((error) => console.log(\'Error sharing\', error));" title="Link zur Seite teilen"><span class="hidden">Teilen</span></a></div>');
-            }
-
-        </script>
-
     </div>
+
+    <!-- Secondary Scripts -->
+    <!-- useful script to offer direct share and print buttons for standalone web applications -->
+    <script>
+        if (navigator.share) {
+            document.write('<div id="fab" class="show"><a class="share-button" data-icon-code="&#xe80d;" rel="nofollow" href="#share" onclick="if(navigator.vibrate){navigator.vibrate(50);};navigator.share({ title: document.title, text: document.title, url: window.location.href, }).catch((error) => console.log(\'Error sharing\', error));" title="Link zur Seite teilen"><span class="hidden">Teilen</span></a></div>');
+        }
+
+    </script>
+
 </body>
 
 </html>

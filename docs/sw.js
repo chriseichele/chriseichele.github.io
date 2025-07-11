@@ -1,4 +1,4 @@
-const CACHE_VERSION = 6;
+const CACHE_VERSION = 1;
 let CURRENT_CACHES = {
     offline: 'offline-v' + CACHE_VERSION
 };
